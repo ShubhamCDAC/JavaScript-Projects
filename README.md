@@ -1,2 +1,2 @@
 # JavaScript-Projects
-JavaScript Beginner Projects
+Projects made by HTML, CSS and JavaScript.

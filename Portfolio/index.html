@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Design</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- <script src="https://kit.fontawesome.com/9d08430873.js" crossorigin="anonymous"></script> -->
+    <!-- custom css file -->
+    <link rel="stylesheet" href="/Portfolio/css/style.css">
+</head>
+
+<body>
+
+    <!-- header section starts -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <div class="fas fa-bars" id="menu-btn"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- header section ends  -->
+
+
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <P>Software Developer</P>
+            <h1>Hi, I'm <span>Shubham</span> Salunkhe <br> From Australia</h1>
+
+            <!-- <div class="socials">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-github"></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>           -->
+        </div>
+        <!-- <div class="img">
+            <img src="images/IMG.png" alt="">
+        </div> -->
+    </section>
+
+    <!-- home section ends  -->
+
+
+
+    <!-- about section starts -->
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="content">
+                <div class="image">
+                    <img src="images/img2.jpg" alt="">
+                </div>
+                <div class="data">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, asperiores laborum libero
+                        repellat aliquid eaque, reiciendis incidunt at modi sapiente commodi nulla est? Ipsa placeat
+                        quis, possimus dolorum voluptatem nostrum!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App development</span><br>Building Android iOS Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - current</span><br>Software Developer at Google</li>
+                            <li><span>2022 - 2023</span><br>Junior Developer at TCS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>PG-DAC from CDAC-Hyderabad</li>
+                            <li><span>2021</span><br>B.Tech. in Mechanial Engineering</li>
+                            <li><span>2018</span><br>Diploma in Mechanical Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends  -->
+
+    <!-- Services section starts -->
+    
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, natus porro reprehenderit pariatur aut quidem accusamus recusandae tempora maiores accusantium voluptatem cupiditate quo optio consectetur. Ea ipsum amet magni molestias, dolorem in quos quae autem consectetur. Accusantium magni possimus nisi quasi culpa necessitatibus fuga quam dolor repudiandae! Dolores, sed inventore!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, natus porro reprehenderit pariatur aut quidem accusamus recusandae tempora maiores accusantium voluptatem cupiditate quo optio consectetur. Ea ipsum amet magni molestias, dolorem in quos quae autem consectetur. Accusantium magni possimus nisi quasi culpa necessitatibus fuga quam dolor repudiandae! Dolores, sed inventore!.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, natus porro reprehenderit pariatur aut quidem accusamus recusandae tempora maiores accusantium voluptatem cupiditate quo optio consectetur. Ea ipsum amet magni molestias, dolorem in quos quae autem consectetur. Accusantium magni possimus nisi quasi culpa necessitatibus fuga quam dolor repudiandae! Dolores, sed inventore!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services section ends  -->
+
+    <!-- portfolio section starts  -->
+
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg">
+                    <div class="layer">
+                        <h3>Online Trekking App </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam tempore voluptate accusamus recusandae consequuntur. Aspernatur delectus error eos quam molestias..</p>
+                        <a href="#"><i class="fas fa-external-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg">
+                    <div class="layer">
+                        <h3>Grocery Shopping App </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam tempore voluptate accusamus recusandae consequuntur. Aspernatur delectus error eos quam molestias..</p>
+                        <a href="#"><i class="fas fa-external-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpg">
+                    <div class="layer">
+                        <h3>Furniture Shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam tempore voluptate accusamus recusandae consequuntur. Aspernatur delectus error eos quam molestias..</p>
+                        <a href="#"><i class="fas fa-external-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-4.jpg">
+                    <div class="layer">
+                        <h3>Travel Agecy App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam tempore voluptate accusamus recusandae consequuntur. Aspernatur delectus error eos quam molestias..</p>
+                        <a href="#"><i class="fas fa-external-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- portfolio section ends  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- header section ends -->
+
+    <!-- custom javascript  -->
+    <script src="/Portfolio/js/script.js"></script>
+
+    <!-- <script>
+        let tablinks = document.getElementsByClassName("tab-links");
+        let tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablinks.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontents.classList.remove("active-tab");
+            }
+
+        }
+    </script> -->
+</body>
+
+</html>

@@ -369,3 +369,86 @@ section{
     background-color: var(--main-color);
 
 }
+
+.contact{
+    padding: 14rem;
+}
+
+.contact .container{
+    display: flex;
+}
+
+.contact .container .row .contact-left{
+    flex-basis: 35%;
+    display: inline-block;
+}
+.contact .container .row .contact-right{
+    flex-basis: 60%;
+}
+
+.contact .container .row .contact-left h1{
+    font-size: 4.5rem;
+}
+
+.contact .container .row .contact-left p{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.contact .container .row .contact-left p i{
+    color: var(--main-color);
+    margin-right: 1.2rem;
+    font-size: 2rem;
+}
+
+.contact .container .row .contact-left .social-icons{
+    margin-top: 2.2rem;
+}
+
+.contact .container .row .contact-left .social-icons a{
+    text-decoration: none;
+    font-size:2.5rem ;
+    margin-right: 3rem;
+    color: #fff;
+    display: inline-block;
+    transition: .5s;
+}
+
+.contact .container .row .contact-left .social-icons a:hover{
+    color: var(--main-color);
+    transform: translateY(-.5rem);
+}
+
+.btn.btn2{
+    display: inline-block;
+    background: #45A29e;
+    font-size: 1.5rem;
+}
+
+.contact-right formform .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: var(--second-bg-color);
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color:var(--second-bg-color);
+    padding: 1.3rem;
+    margin: 1.3rem 0;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+
+}
+
+form btn2{
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    margin-top: 1.6rem;
+    cursor: pointer;
+}

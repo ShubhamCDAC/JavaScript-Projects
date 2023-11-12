@@ -375,15 +375,17 @@ section{
 }
 
 .contact .container{
-    display: flex;
+    display: flex; 
 }
 
 .contact .container .row .contact-left{
-    flex-basis: 35%;
-    display: inline-block;
+    /* flex-basis: 35%; */
+    float: left;
 }
 .contact .container .row .contact-right{
-    flex-basis: 60%;
+    /* flex-basis: 60%; */
+    float: right;
+    margin-left: 22rem;
 }
 
 .contact .container .row .contact-left h1{
@@ -391,7 +393,7 @@ section{
 }
 
 .contact .container .row .contact-left p{
-    margin-top: 2rem;
+    margin-top: 2.8rem;
     font-size: 1.5rem;
 }
 
@@ -402,12 +404,12 @@ section{
 }
 
 .contact .container .row .contact-left .social-icons{
-    margin-top: 2.2rem;
+    margin-top: 2.8rem;
 }
 
 .contact .container .row .contact-left .social-icons a{
     text-decoration: none;
-    font-size:2.5rem ;
+    font-size:2.8rem ;
     margin-right: 3rem;
     color: #fff;
     display: inline-block;
@@ -451,4 +453,15 @@ form btn2{
     font-size: 1.5rem;
     margin-top: 1.6rem;
     cursor: pointer;
+}
+
+.copyright{
+    width: 100%;;
+    text-align: center;
+    background: var(--second-bg-color);
+    margin-top: 1.8rem;
+    color: #ffffff;
+    font-size: 1.6rem;
+    padding: 1.5rem ;
+    font-weight: lighter;
 }

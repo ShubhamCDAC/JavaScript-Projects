@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background: linear-gradient(90deg, #352f44, #5c5470);
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.container{
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    max-width: 500px;
+    border-radius: 12px;
+    transition: .3s
+
+}
+
+.container:hover{
+    transform: scale(1.02);
+}
+
+input{
+    margin: 5px;
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    border: 2px solid #4c3e71;
+    border-radius: 5px;
+}
+
+button{
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #352f44, #aba6ba);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover{
+    background: linear-gradient(45deg, #aba6ba, #352f44);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+
+li{
+    margin: 10px 0;
+    background-color: #f1f1f1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.remove-btn{
+    cursor: pointer;
+    background: linear-gradient(45deg, #690909, #fe0000);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.remove-btn:hover{
+    background: linear-gradient(45deg, #fe0000, #690909);
+}
+
+
+  
